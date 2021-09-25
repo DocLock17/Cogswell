@@ -272,26 +272,33 @@ for doc in documents:
 # Shuffle and split our dataset
 random.shuffle(training)
 training = np.array(training)
-train_x = list(training[:,0])
-train_y = list(training[:,1])
+data_x = list(training[:,0])
+data_y = list(training[:,1])
+
+train_x = data_x[0: int(len(data_x)* .9 )]
+train_y = data_y[0: int(len(data_y)* .9 )]
+
+val_x = data_x[int(len(data_x)* .9 ):]
+val_y = data_y[int(len(data_y)* .9 ):]
+
 print("Training data created")
 
 # Build a basic sequential model for categorization
 model = Sequential()
-model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+model.add(Dense(64, input_shape=(len(data_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
+model.add(Dense(32, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
 # Set optimizer (SGD with Nesrov)
-sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+sgd = SGD(lr=0.007, decay=1e-6, momentum=0.85, nesterov=True)
 
 # Compile model with categorical loss
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 # Train model for 200 epochs
-hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+hist = model.fit(np.array(train_x), np.array(train_y), batch_size=10, epochs=1000, validation_data=(np.array(val_x), np.array(val_y)), verbose=1)
 
 # Save model for production
 model.save('language_model0.h5', hist)
