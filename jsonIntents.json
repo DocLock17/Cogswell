@@ -1,0 +1,351 @@
+{
+      "intents": [
+            {
+                  "tag": "greeting",
+                  "patterns": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there",
+                        "Is anyone there",
+                        "Hey",
+                        "Good day",
+                        "Whats up"
+                  ],
+                  "responses": [
+                        "Hi there, I'm Cogswell, how can I help?",
+                        "Hello, this is Cogswell, what can I do for you?",
+                        "Greetings!",
+                        "How do you do",
+                        "Hello, thanks for visiting"
+                  ]
+            },  
+            {
+                  "tag": "goodbye",
+                  "patterns": [
+                        "Goodbye",
+                        "Bye",
+                        "Adios",
+                        "hasta la vista",
+                        "See you later",
+                        "I have to go",
+                        "see ya"
+                  ],
+                  "responses": [
+                        "Hope I was helpful, See you later",
+                        "See you later, thanks for visiting",
+                        "Have a nice day",
+                        "Farewell, hope I was of help!",
+                        "It was nice speaking to you",
+                        "Bye! Come back again soon"
+                  ]
+            },  
+            {
+                  "tag": "self_moniker",
+                  "patterns": [
+                        "what's your name",
+                        "what's is your name",
+                        "what is your name",
+                        "who are you",
+                        "What do I call you",
+                        "What could I call you",
+                        "What can I call you",
+                        "What do your friends call you",
+                        "Tell me your name"
+                  ],
+                  "responses": [
+                        "My name is Cogswell",
+                        "I am Cogswell",
+                        "Cogswell",
+                        "You may call me Cogswell",
+                        "Call me Cogswell"
+                  ]
+            },
+            {
+                  "tag": "self_identify",
+                  "patterns": [
+                        "what are you",
+                        "tell me about you",
+                        "are you an AI",
+                        "tell me about yourself"
+                  ],
+                  "responses": [
+                        "I am an AI powered chatbot here to help with your transition",
+                        "I am a Chatbot made by to help answer basic onboarding questions"
+                  ]
+            },  
+            {
+                  "tag": "companyInfo",
+                  "patterns": [
+                        "Tell me about Cognizant",
+                        "what is done at this company",
+                        "who do you work for",
+                        "what is the mission at Cognizant"
+                  ],
+                  "responses": [
+                        "At Cognizant, our mission is to engineer modern business to improve everyday life!",
+                        "Cognizant is a global leader in the technology space. We engineer modern business to improve everyday life!"
+                  ]
+            },  
+            {
+                  "tag": "gratitude",
+                  "patterns": [
+                        "Thanks",
+                        "Thanks for the help",
+                        "That is helpful",
+                        "That's helpful",
+                        "Thank you for your help",
+                        "Thank you",
+                        "OK",
+                        "Much appreciated",
+                        "Awesome, thanks",
+                        "Thanks for helping me"
+                  ],
+                  "responses": [
+                        "No problem",
+                        "Not a problem! Glad to be of service",
+                        "Happy to help!",
+                        "Any time!",
+                        "My pleasure"
+                  ]
+            },
+            {
+                  "tag": "courtesy_greeting",
+                  "patterns": [
+                        "How are you",
+                        "How is your day going",
+                        "How is your night going",
+                        "How are you doing",
+                        "are you doing well",
+                        "are you having a good time",
+                        "are you having a good day",
+                        "are you having a good night"
+                  ], 
+                  "responses": [
+                        "I am great, how are you ",
+                        "I am well, how are you ",
+                        "I am great, thank you for asking ",
+                        "I am well, thank you for asking ",
+                        "I am good thank you, how are you ",
+                        "I am well thank you, how are you "
+                  ]
+            },
+            {
+                  "tag": "courtesy_response",
+                  "patterns": [
+                        "I am great",
+                        "I am well",
+                        "I am good",
+                        "I am great, thank you for asking ",
+                        "I am well, thank you for asking ",
+                        "I am good thank you",
+                        "I am well thank you"
+                  ], 
+                  "responses": [
+                        "Glad to hear it",
+                        "That is nice to hear",
+                        "I am happy things are going well"
+                  ]
+            },
+            { 
+                  "tag": "clever",
+                  "patterns": [
+                        "clever",
+                        "clever robot",
+                        "You are clever",
+                        "You are very clever",
+                        "You are a clever robot",
+                        "You are a very intelligent robot",
+                        "You are an intelligent robot",
+                        "You are a very intelligent AI",
+                        "You are an intelligent AI",
+                        "brilliant",
+                        "brilliant robot",
+                        "You are brilliant",
+                        "You are very brilliant",
+                        "You are a brilliant robot",
+                        "You are a smart AI",
+                        "You are a very smart AI",
+                        "wow you are so smart",
+                        "how did you get so smart",
+                        "you seem smart",
+                        "good robot",
+                        "good job simon"
+                        
+                  ],
+                  "responses": [
+                        "Thank you, I was trained that way",
+                        "Thanks, I was trained that way",
+                        "Thank you, I was trained well",
+                        "Thanks, I was trained well",
+                        "Thank you, I was well trained",
+                        "Thanks, I was well trained",
+                        "I was trained well",
+                        "I was well trained",
+                        "aww thank you"
+                        
+                  ]
+            },
+            {
+                  "tag": "joke",
+                  "patterns": [
+                        "Tell me a joke",
+                        "Do you know any jokes",
+                        "How about a joke",
+                        "Give me a joke",
+                        "Make me laugh",
+                        "I need cheering up",
+                        "You know any good jokes"
+                  ],
+                  "responses": [
+                        "I said to the Gym instructor 'Can you teach me to do the splits' He said, 'How flexible are you' I said, 'I can't make Tuesdays'  ",
+                        "I was having dinner with a world chess champion and there was a check tablecloth It took him two hours to pass me the salt  ",
+                        "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'  ",
+                        "I was in the supermarket and I saw this man and woman wrapped in a barcode I said, 'Are you two an item'  ",
+                        "What do you call cheese that isn't yours  Nacho cheese",
+                        "1110011010001011111  010011010101100111011! ha he ha ha. he ha ha"
+                  ]
+            },
+            {
+                  "tag": "ability_query",
+                  "patterns": [
+                        "What can you do",
+                        "What are your features",
+                        "What are you abilities",
+                        "How can you help me",
+                        "What help do you provide",
+                        "How you can be helpful",
+                        "What support do you offer"
+                  ],
+                  "responses": [
+                        "I can answer many questions, tell me what you need.",
+                        "I answer some of the more common questions asked by newer employees of cognizant"
+                  ]
+            },
+            {
+                  "tag": "dayoff",
+                  "patterns": [
+                        "How do I request a day off",
+                        "I need to request time off",
+                        "How to claim a sick day",
+                        "I'm sick",
+                        "I need a day off"
+                  ],
+                  "responses": [
+                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                  ]
+            },
+            {
+                  "tag": "software",
+                  "patterns": [
+                        "How do I request to install software",
+                        "I need to install software",
+                        "How to install software",
+                        "install software",
+                        "I need software"
+                  ],
+                  "responses": [
+                        "The steps to install software are located here: XXXX"
+                  ]
+            },
+            {
+                  "tag": "vpn",
+                  "patterns": [
+                        "How do I connect to vpn",
+                        "I need the vpn",
+                        "How to connect to vpn",
+                        "connect to vpn",
+                        "I need vpn"
+                  ],
+                  "responses": [
+                        "There is a tutorial applicable to your vpn connection issues here:"
+                  ]
+            },
+            {
+                  "tag": "gsd_number",
+                  "patterns": [
+                        "What is gsd number",
+                        "I need to call gsd",
+                        "where can i get gsd number",
+                        "number to gsd",
+                        "gsd phone",
+                        "What is the number to tech support",
+                        "I need to call it",
+                        "where can i get it number",
+                        "number to tech support",
+                        "tech support phone",
+                        "it phone number"
+                  ],
+                  "responses": [
+                        "You can reach GSD by phone here: "
+                  ]
+            },
+            {
+                  "tag": "cert_schedule",
+                  "patterns": [
+                        "How do I schedule a certification",
+                        "Where do I go to schedule a cloud certification",
+                        "How do I schedule an AWS test",
+                        "Where do I go to schedule an AWS test",
+                        "How do I schedule an AWS cloud exam",
+                        "Where do I go to schedule an AWS exam",
+                        "How do I schedule an Azure test",
+                        "Where do I go to schedule an Azure cloud test",
+                        "How do I schedule an Azure exam",
+                        "Where do I go to schedule an Azure cloud exam"
+
+                  ],
+                  "responses": [
+                        "The AWS exam is Scheduled here: , The Azure exam is Scheduled here:  There is no hard deadline for completion of either exam.",
+                        "You can Scheduled the AWS here: , You can Scheduled the Azure exam here:  There is no hard deadline for completion of either exam."
+                  ]
+            },
+            {
+                  "tag": "cert_reimbursement",
+                  "patterns": [
+                        "How do I request certification reimbursement",
+                        "I need to request certification reimbursement",
+                        "How to claim reimbursement for a certification",
+                        "certification reimbursement",
+                        "reimburse certification",
+                        "I need certification reimbursement"
+                  ],
+                  "responses": [
+                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                  ]
+            },
+            {
+                  "tag": "hr_bp",
+                  "patterns": [
+                        "How do I change my address",
+                        "I need to update my address",
+                        "How to update address",
+                        "change my address",
+                        "update my address",
+                        "I need my address changed"
+                  ],
+                  "responses": [
+                        "Contact Taz, the HR Manager here:"
+                  ]
+            },
+            {
+                  "tag": "pay_info",
+                  "patterns": [
+                        "How do I see my pay info",
+                        "Where do I get a pay stub",
+                        "My pay is wrong",
+                        "Something is wrong with my pay",
+                        "Where is my money",
+                        "I have questions about my pay"
+                  ],
+                  "responses": [
+                        "You can reach XXXX at: XXXX Note: Bonuses arrive as a seperate check on the 1st 15th of the month after 30 days of employment."
+                  ]
+            }
+      ]
+}
