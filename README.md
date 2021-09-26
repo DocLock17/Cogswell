@@ -9,7 +9,7 @@ cd cogswell
 docker image build --tag doclock17/cogswell:1.0 .
 
 ## To Start your Application
-docker container run --d --p 5000:5000 --n cogswell doclock17/cogswell:1.0
+docker container run -d -p 5000:5000 --name cogswell doclock17/cogswell:1.0
 
 ## To Check on Running Containers
 docker ps -a 
