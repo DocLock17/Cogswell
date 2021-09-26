@@ -9,7 +9,7 @@ from tkinter import *
 # Define request function
 def request_response(text):
     query = {'input':text}
-    response = requests.put('http://54.175.97.43:5000', params=query)
+    response = requests.put('http://3.84.125.186:5000', params=query)
     return response.json()['body']
 
 
