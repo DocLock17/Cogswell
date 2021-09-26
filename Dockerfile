@@ -1,6 +1,6 @@
 FROM       tensorflow/tensorflow:latest
 
-EXPOSE     5000
+EXPOSE     5000:5000
 
 WORKDIR    /app
 COPY       requirements.txt /app/
