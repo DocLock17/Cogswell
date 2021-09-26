@@ -362,6 +362,32 @@
                   "responses": [
                         "The onboarding checklist can be found here: https://be.cognizant.com/sites/onboarding-north-america/SitePage/286127/north-america-onboarding "
                   ]
+            },
+            {
+                  "tag": "spam",
+                  "patterns": [
+                        "How do we report spam",
+                        "What do I do about spam",
+                        "Where do I report phishing",
+                        "How do I report phishing",
+                        "report phishing"
+                  ],
+                  "responses": [
+                        "1. For Windows machine, use the Report Spam Plugin available in outlook to send the reported email as an attachment. 2. For non-Windows machine (Mac, mobile, etc.), you can send the reported email as an attachment (.msg format) to reportspam@cognizant.com."
+                  ]
+            },
+            {
+                  "tag": "training_conflict",
+                  "patterns": [
+                        "What do I do about a training conflict",
+                        "I have a training conflict",
+                        "Some of my trainings are scheduled at the same time",
+                        "How to resolve training schedule conflict",
+                        "training schedule conflict"
+                  ],
+                  "responses": [
+                        "If you have a training conflict, reach out to Antoinette Saade at: Antoinette.Saade@cognizant.com!"
+                  ]
             }
       ]
 }
