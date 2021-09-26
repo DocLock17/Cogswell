@@ -216,7 +216,7 @@ import random
 words=[]
 classes = []
 documents = []
-ignore_words = ['?', '!']
+ignore_words = ['?', '!', '.']
 data_file = open('jsonIntents.json').read()
 intents = json.loads(data_file)
 
@@ -271,7 +271,7 @@ for doc in documents:
 
 # Shuffle and split our dataset
 random.shuffle(training)
-training = np.array(training)
+training = np.array(training, dtype=object)
 data_x = list(training[:,0])
 data_y = list(training[:,1])
 
@@ -285,20 +285,20 @@ print("Training data created")
 
 # Build a basic sequential model for categorization
 model = Sequential()
-model.add(Dense(64, input_shape=(len(data_x[0]),), activation='relu'))
+model.add(Dense(36, input_shape=(len(data_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(32, activation='relu'))
+model.add(Dense(24, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
 # Set optimizer (SGD with Nesrov)
-sgd = SGD(lr=0.007, decay=1e-6, momentum=0.85, nesterov=True)
+sgd = SGD(learning_rate=0.0102, decay=1.1e-6, momentum=0.92, nesterov=True)
 
 # Compile model with categorical loss
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 # Train model for 200 epochs
-hist = model.fit(np.array(train_x), np.array(train_y), batch_size=10, epochs=1000, validation_data=(np.array(val_x), np.array(val_y)), verbose=1)
+hist = model.fit(np.array(train_x), np.array(train_y), batch_size=22, epochs=1000, validation_data=(np.array(val_x), np.array(val_y)), verbose=1)
 
 # Save model for production
 model.save('language_model0.h5', hist)

@@ -158,14 +158,11 @@
                         "You are very clever",
                         "You are a very intelligent AI",
                         "You are an intelligent AI",
-                        "brilliant",
                         "You are very brilliant",
                         "You are a brilliant robot",
                         "You are a very smart AI",
                         "wow you are so smart",
                         "how did you get so smart"
-
-                        
                   ],
                   "responses": [
                         "Thank you, I was trained that way",
@@ -177,7 +174,6 @@
                         "I was trained well",
                         "I was well trained",
                         "aww thank you"
-                        
                   ]
             },
             {
@@ -222,7 +218,6 @@
                         "How do I request a day off",
                         "I need to request time off",
                         "How to claim a sick day",
-                        "I'm sick",
                         "I need a day off"
                   ],
                   "responses": [
@@ -249,7 +244,7 @@
                         "I need the vpn",
                         "How to connect to vpn",
                         "connect to vpn",
-                        "I need vpn"
+                        "I need to connect to the vpn"
                   ],
                   "responses": [
                         "There is a tutorial applicable to your vpn connection issues here: https://onecognizantbcazrapps.cognizant.com/2308/Areas/RequestManage/Content/Images/installation-guideline-pip-up.png"
@@ -261,14 +256,11 @@
                         "What is gsd number",
                         "I need to call gsd",
                         "where can i get gsd number",
-                        "number to gsd",
-                        "gsd phone",
                         "What is the number to tech support",
                         "I need to call it",
                         "where can i get it number",
                         "number to tech support",
-                        "tech support phone",
-                        "it phone number"
+                        "tech support phone"
                   ],
                   "responses": [
                         "You can reach GSD by phone here: U.S. 1-866-822-2024, UK 0800-678-1616, or India 1800-572-0473"
@@ -277,33 +269,21 @@
             {
                   "tag": "cert_schedule",
                   "patterns": [
-                        "How do I schedule a certification",
                         "Where do I go to schedule a cloud certification",
-                        "Where do I go to schedule an AWS test",
+                        "schedule an AWS test",
                         "How do I schedule an AWS cloud exam",
-                        "Where do I go to schedule an AWS exam",
-                        "How do I schedule an Azure test",
+                        "Azure test",
                         "Where do I go to schedule an Azure cloud test",
-                        "Where do I go to schedule an Azure cloud exam"
-
-                  ],
-                  "responses": [
-                        "The AWS exam is Scheduled here: https://www.aws.training/certification, The Azure exam is Scheduled here: https://www.microsoft.com/en-us/learning/dashboard.aspx! There is no hard deadline for completion of either exam.",
-                        "You can Scheduled the AWS here: https://www.aws.training/certification, You can Scheduled the Azure exam here: https://www.microsoft.com/en-us/learning/dashboard.aspx! There is no hard deadline for completion of either exam."
-                  ]
-            },
-            {
-                  "tag": "cert_reimbursement",
-                  "patterns": [
-                        "How do I request certification reimbursement",
+                        "Where do I go to do Azure cloud exam",
                         "I need to request certification reimbursement",
                         "How to claim reimbursement for a certification",
-                        "certification reimbursement",
+                        "get certification reimbursement",
                         "reimburse certification",
                         "I need certification reimbursement"
                   ],
                   "responses": [
-                        "The Alliance site for Certification Vouchers is located: https://be.cognizant.com/sites/cognizant-academy/SitePageModern/772073/alliances-partnership"
+                        "The AWS exam is Scheduled here: https://www.aws.training/certification, The Azure exam is Scheduled here: https://www.microsoft.com/en-us/learning/dashboard.aspx! There is no hard deadline for completion of either exam. The Alliance site for Certification Vouchers is located: https://be.cognizant.com/sites/cognizant-academy/SitePageModern/772073/alliances-partnership",
+                        "You can Scheduled the AWS here: https://www.aws.training/certification, You can Scheduled the Azure exam here: https://www.microsoft.com/en-us/learning/dashboard.aspx! There is no hard deadline for completion of either exam. The Alliance site for Certification Vouchers is located: https://be.cognizant.com/sites/cognizant-academy/SitePageModern/772073/alliances-partnership"
                   ]
             },
             {
@@ -324,7 +304,7 @@
                   "tag": "pay_info",
                   "patterns": [
                         "How do I see my pay info",
-                        "Where do I get a pay stub",
+                        "get a pay stub",
                         "My pay is wrong",
                         "Something is wrong with my pay",
                         "Where is my money",
@@ -338,11 +318,11 @@
                   "tag": "eeo",
                   "patterns": [
                         "Where do I do sexual harassment training",
-                        "Where do I go for bribery training",
+                        "Where do I go for mandatory bribery class",
                         "How do I get to data security training",
-                        "Where do I do ethics and compliance training",
+                        "Where do I do ethics and compliance class",
                         "compliance training",
-                        "ethics training",
+                        "mandatory ethics",
                         "sexual harrassment",
                         "data security"
                   ],
@@ -368,9 +348,10 @@
                   "patterns": [
                         "How do we report spam",
                         "What do I do about spam",
-                        "Where do I report phishing",
+                        "Where do I report phishing attempt",
                         "How do I report phishing",
-                        "report phishing"
+                        "report phishing attempt",
+                        "spam report"
                   ],
                   "responses": [
                         "1. For Windows machine, use the Report Spam Plugin available in outlook to send the reported email as an attachment. 2. For non-Windows machine (Mac, mobile, etc.), you can send the reported email as an attachment (.msg format) to reportspam@cognizant.com."
@@ -383,7 +364,11 @@
                         "I have a training conflict",
                         "Some of my trainings are scheduled at the same time",
                         "How to resolve training schedule conflict",
-                        "training schedule conflict"
+                        "training schedule conflict",
+                        "scheduled training conflict",
+                        "training schedule for same time as",
+                        "scheduled same time",
+                        "conflict"
                   ],
                   "responses": [
                         "If you have a training conflict, reach out to Antoinette Saade at: Antoinette.Saade@cognizant.com!"
