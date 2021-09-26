@@ -11,6 +11,7 @@ def request_response(text):
     query = {'input':text}
     # response = requests.put('http://3.235.0.255:5000', params=query)
     response = requests.put('http://67.202.54.165:5000', params=query)
+    response = requests.put('http://67.202.54.165:5000', params=query)
     return response.json()['body']
 
 
