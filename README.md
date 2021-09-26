@@ -3,7 +3,7 @@ A simple chatbot API for presentation at Cognizant Technologies
 
 
 ## Move in to the application directory
-cd DockerSpeechAPI
+cd cogswell
 
 ## To build your application
 docker image build --tag doclock17/cogswell:1.0 .
