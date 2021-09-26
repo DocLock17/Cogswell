@@ -70,7 +70,8 @@
                         "what are you",
                         "tell me about you",
                         "are you an AI",
-                        "tell me about yourself"
+                        "tell me about yourself",
+                        "who are you"
                   ],
                   "responses": [
                         "I am an AI powered chatbot here to help with your transition",
@@ -83,7 +84,8 @@
                         "Tell me about Cognizant",
                         "what is done at this company",
                         "who do you work for",
-                        "what is the mission at Cognizant"
+                        "what is the mission at Cognizant",
+                        "talk about cognizant"
                   ],
                   "responses": [
                         "At Cognizant, our mission is to engineer modern business to improve everyday life!",
@@ -96,10 +98,8 @@
                         "Thanks",
                         "Thanks for the help",
                         "That is helpful",
-                        "That's helpful",
                         "Thank you for your help",
                         "Thank you",
-                        "OK",
                         "Much appreciated",
                         "Awesome, thanks",
                         "Thanks for helping me"
@@ -154,26 +154,17 @@
                   "tag": "clever",
                   "patterns": [
                         "clever",
-                        "clever robot",
                         "You are clever",
                         "You are very clever",
-                        "You are a clever robot",
-                        "You are a very intelligent robot",
-                        "You are an intelligent robot",
                         "You are a very intelligent AI",
                         "You are an intelligent AI",
                         "brilliant",
-                        "brilliant robot",
-                        "You are brilliant",
                         "You are very brilliant",
                         "You are a brilliant robot",
-                        "You are a smart AI",
                         "You are a very smart AI",
                         "wow you are so smart",
-                        "how did you get so smart",
-                        "you seem smart",
-                        "good robot",
-                        "good job simon"
+                        "how did you get so smart"
+
                         
                   ],
                   "responses": [
@@ -235,8 +226,7 @@
                         "I need a day off"
                   ],
                   "responses": [
-                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                        "Time off for Doctor's appointments, sick leave, and vacation time are all handled using the 'Apply Leave' app available on OneCognizant here:https://onecognizant.cognizant.com/Home?"
                   ]
             },
             {
@@ -249,7 +239,7 @@
                         "I need software"
                   ],
                   "responses": [
-                        "The steps to install software are located here: XXXX"
+                        "The steps to install software are located here: https://onecognizant.cognizant.com/Home?GlobalAppID=2425"
                   ]
             },
             {
@@ -262,7 +252,7 @@
                         "I need vpn"
                   ],
                   "responses": [
-                        "There is a tutorial applicable to your vpn connection issues here:"
+                        "There is a tutorial applicable to your vpn connection issues here: https://onecognizantbcazrapps.cognizant.com/2308/Areas/RequestManage/Content/Images/installation-guideline-pip-up.png"
                   ]
             },
             {
@@ -281,7 +271,7 @@
                         "it phone number"
                   ],
                   "responses": [
-                        "You can reach GSD by phone here: "
+                        "You can reach GSD by phone here: U.S. 1-866-822-2024, UK 0800-678-1616, or India 1800-572-0473"
                   ]
             },
             {
@@ -289,19 +279,17 @@
                   "patterns": [
                         "How do I schedule a certification",
                         "Where do I go to schedule a cloud certification",
-                        "How do I schedule an AWS test",
                         "Where do I go to schedule an AWS test",
                         "How do I schedule an AWS cloud exam",
                         "Where do I go to schedule an AWS exam",
                         "How do I schedule an Azure test",
                         "Where do I go to schedule an Azure cloud test",
-                        "How do I schedule an Azure exam",
                         "Where do I go to schedule an Azure cloud exam"
 
                   ],
                   "responses": [
-                        "The AWS exam is Scheduled here: , The Azure exam is Scheduled here:  There is no hard deadline for completion of either exam.",
-                        "You can Scheduled the AWS here: , You can Scheduled the Azure exam here:  There is no hard deadline for completion of either exam."
+                        "The AWS exam is Scheduled here: https://www.aws.training/certification, The Azure exam is Scheduled here: https://www.microsoft.com/en-us/learning/dashboard.aspx! There is no hard deadline for completion of either exam.",
+                        "You can Scheduled the AWS here: https://www.aws.training/certification, You can Scheduled the Azure exam here: https://www.microsoft.com/en-us/learning/dashboard.aspx! There is no hard deadline for completion of either exam."
                   ]
             },
             {
@@ -315,8 +303,7 @@
                         "I need certification reimbursement"
                   ],
                   "responses": [
-                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                        "The Alliance site for Certification Vouchers is located: https://be.cognizant.com/sites/cognizant-academy/SitePageModern/772073/alliances-partnership"
                   ]
             },
             {
@@ -330,7 +317,7 @@
                         "I need my address changed"
                   ],
                   "responses": [
-                        "Contact Taz, the HR Manager here:"
+                        "Contact Tasneem, the HR Manager, here: TasneemS.Arrarwala@cognizant.com!"
                   ]
             },
             {
@@ -344,7 +331,36 @@
                         "I have questions about my pay"
                   ],
                   "responses": [
-                        "You can reach XXXX at: XXXX Note: Bonuses arrive as a seperate check on the 1st 15th of the month after 30 days of employment."
+                        "You can reach the ADP pay site at: https://be.cognizant.com/sites/global-human-resources/united-states-human-resources/SitePage/323837/us-payroll or try emailing the payroll helpdesk here: PayrollHelpdeskNA@cognizant.com! Note: Bonuses arrive as a seperate check on the 1st 15th of the month after 30 days of employment."
+                  ]
+            },
+            {
+                  "tag": "eeo",
+                  "patterns": [
+                        "Where do I do sexual harassment training",
+                        "Where do I go for bribery training",
+                        "How do I get to data security training",
+                        "Where do I do ethics and compliance training",
+                        "compliance training",
+                        "ethics training",
+                        "sexual harrassment",
+                        "data security"
+                  ],
+                  "responses": [
+                        "All of your Mandatory Ethics training needs can be found: https://cognizant-console.lrn.com/ "
+                  ]
+            },
+            {
+                  "tag": "onboarding_checklist",
+                  "patterns": [
+                        "How do we access the onboarding checklist",
+                        "How do I get to the onboarding checklist",
+                        "Where do I get the checklist for onbaording",
+                        "checklist for onbaording",
+                        "onboarding checklist"
+                  ],
+                  "responses": [
+                        "The onboarding checklist can be found here: https://be.cognizant.com/sites/onboarding-north-america/SitePage/286127/north-america-onboarding "
                   ]
             }
       ]
