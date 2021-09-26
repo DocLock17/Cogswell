@@ -38,7 +38,7 @@ class IntentModel():
     def predict_class(self, sentence, model):
 
         # Get the BOW
-        p = self.bow(sentence, self.words,show_details=True)
+        p = self.bow(sentence, self.words)
 
         # Run model inference
         res = model.predict(np.array([p]))[0]
